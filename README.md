@@ -1,6 +1,6 @@
 # Leakage- and label-aware benchmarking of class-imbalance strategies for chest X-ray and EHR classification
 
-Code for the paper *Leakage- and Label-Aware Benchmarking of Class-Imbalance Strategies for Multimodal Chest X-Ray and EHR Classification*.
+**Publication status:** Accepted for presentation and publication at the Second Workshop on Knowledge-Augmented Multimodal Information Processing (KAMIP 2026), IEEE BigData 2026.
 
 The pipeline audits a multimodal MIMIC-CXR / MIMIC-IV benchmark for patient leakage and label provenance, and re-benchmarks class-imbalance strategies (class weighting, random oversampling, SMOTE, type-aware SMOTE-NC, balanced ensembles) with several classifiers and representations (EHR variables, TorchXRayVision pathology scores, DenseNet and RAD-DINO embeddings, early fusion) under record-level, patient-level and calendar-time splits, with released, admission-aligned, rule-refined and CheXpert labels.
 
